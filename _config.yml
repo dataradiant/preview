@@ -17,5 +17,12 @@ url: "http://dataradiant.com" # the base hostname & protocol for your site
 twitter_username: dataradiant
 github_username:  dataradiant
 
+collections:
+  docs:
+    output: true
+
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-redirect-from

@@ -1,18 +1,19 @@
-<!--footer class="site-footer">
+<footer class="site-footer">
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+      <div class="footer-col">
+        <p>
+          &copy; DataRadiant 2016. All rights reserved.<br/>
+          <small>
+          Apache Beam, Apache Flink are trademarks of the Apache Software Foundation.<br/>
+          AWS is trademark of Amazon.com, Inc.
+          </small>
+        </p>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="footer-col" style="float: right">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -27,12 +28,8 @@
           {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
     </div>
 
   </div>
 
-</footer-->
+</footer>
