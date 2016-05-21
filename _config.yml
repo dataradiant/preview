@@ -21,8 +21,13 @@ collections:
   docs:
     output: true
 
+sass:
+  style: :compressed
+
 # Build settings
 markdown: kramdown
 
 gems:
   - jekyll-redirect-from
+
+# http://lit-coast-9918.herokuapp.com/v1.3/

@@ -1,9 +1,7 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
         <p>
           &copy; DataRadiant 2016. All rights reserved.<br/>
           <small>
@@ -12,9 +10,8 @@
           </small>
         </p>
       </div>
-
-      <div class="footer-col" style="float: right">
-        <ul class="social-media-list">
+      <div class="col-sm-4 menu text-right">
+        <ul>
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -29,7 +26,5 @@
         </ul>
       </div>
     </div>
-
   </div>
-
 </footer>
