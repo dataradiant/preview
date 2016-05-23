@@ -10,7 +10,7 @@ order: 2
 	<div class="container">
 		<div class="row header">
 			<div class="col-md-12">
-				<h3>Different plans for everyone</h3>
+				<h1>Pricing</h1>
 				<p>Choose the pricing that fits your business needs</p>
 			</div>
 		</div>
@@ -46,8 +46,8 @@ order: 2
 							Transaction fee
 						</div>
 					</div>
-					<a class="btn-signup button-clear" href="signup.html">
-						<span>Start free trial</span>
+					<a class="btn btn-primary" href="/docs/quick-start-with-docker/">
+						Start with Docker
 					</a>
 				</div>
 			</div>
@@ -81,8 +81,8 @@ order: 2
 							Transaction fee
 						</div>
 					</div>
-					<a class="btn-signup button-clear" href="signup.html">
-						<span>Start free trial</span>
+					<a class="btn btn-primary" href="/docs/quick-start-with-aws/">
+						Start with AWS
 					</a>
 				</div>
 			</div>
@@ -117,17 +117,26 @@ order: 2
 							Transaction fee
 						</div>
 					</div>
-					<a class="btn-signup button-clear" href="signup.html">
-						<span>Get notified</span>
-					</a>
+
+					<p>
+				      Access to the beta will start soon. Interested?
+				    </p>
+
+				    <div id="mc_embed_signup">
+				      <form action="//dataradiant.us13.list-manage.com/subscribe/post?u=dcda854edc54c2c03d0818b34&amp;id=a29931c578" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate>
+				        <div id="mce-responses" class="clear">
+				          <div class="response" id="mce-error-response" style="display:none"></div>
+				          <div class="response" id="mce-success-response" style="display:none"></div>
+				        </div>
+				        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_dcda854edc54c2c03d0818b34_a29931c578" tabindex="-1" value=""></div>
+				        <div class="form-group mc-field-group"><input type="email" value="" name="EMAIL" class="form-control required email input-large" id="mce-EMAIL" placeholder="your@email.com">
+				        </div>
+				        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Get notified</button>
+				      </form>
+				    </div>
+
 				</div>
 			</div>
-		</div>
-		<div class="row message">
-			<p>
-				All of our plans come with a 30 day trial with no credit card required, we also offer a 
-				<a href="signup.html">free plan</a>.
-			</p>
 		</div>
 		<div class="row faq">
 			<div class="col-md-12">
@@ -165,17 +174,6 @@ order: 2
 							</p>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row contact">
-			<div class="col-md-12">
-				<div class="wrapper clearfix">
-					<h4>
-						<span class="brankic-phone2"></span>
-						Unsure which plan is best for you? You can call our sales team any day at 
-						<strong>1-800-123-4567</strong>
-					</h4>
 				</div>
 			</div>
 		</div>

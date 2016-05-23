@@ -10,7 +10,7 @@ order: 5
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
-                    <h3>About DataRadiant</h3>
+                    <h1>About DataRadiant</h1>
                     <p>
                         You have to roll up your sleeves and be a stonecutter before you can become a sculptor – command of craft always precedes art.
                     </p>
@@ -21,13 +21,13 @@ order: 5
                     <div class="flexslider">
                         <ul class="slides">
                             <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
-                                <img src="images/office2.png" alt="office2" draggable="false">
+                                <img src="/images/office2.png" alt="office2" draggable="false">
                             </li>
                             <li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-                                <img src="images/office1.png" alt="office1" draggable="false">
+                                <img src="/images/office1.png" alt="office1" draggable="false">
                             </li>
                             <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">
-                                <img src="images/office3.png" alt="office3" draggable="false">
+                                <img src="/images/office3.png" alt="office3" draggable="false">
                             </li>
                         </ul>
                     <ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="flex-active">2</a></li><li><a>3</a></li></ol></div>
@@ -40,7 +40,7 @@ order: 5
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>We care about our work</h1>
+                    <h2>We care about our work</h2>
                 </div>
             </div>
             <div class="row">
@@ -66,7 +66,7 @@ order: 5
 <div id="contact-us">
     <div id="map" style="height:400px;">
 
-        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/?ie=UTF8&amp;ll=32.689593,-117.18039&amp;spn=0.023259,0.038495&amp;t=m&amp;z=15&amp;output=embed"></iframe>
+        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/?ie=UTF8&amp;ll=37.7908821,-122.4037407&amp;spn=0.023259,0.038495&amp;t=m&amp;z=15&amp;output=embed"></iframe>
 
         <div class="marker-wrapper">
             <div class="marker-icon"></div>
@@ -109,9 +109,9 @@ order: 5
                         <div class="form-group">
                             <label for="_subject">Inquiry</label>
                             <select name="_subject" class="form-control" id="subject">
-                                <option selected="selected">General inquiry</option>
-                                <option>Service inquiry</option>
-                                <option>Press inquiry</option>
+                                <option selected="selected">General</option>
+                                <option>Service</option>
+                                <option>Press</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -121,33 +121,30 @@ order: 5
                         <div class="submit">
                             <input type="hidden" name="_next" value="/thanks/" />
                             <input type="text" name="_format" value="plain" style="display:none" />
-                            <input type="submit" class="button button-small" value="Email us">
+                            <input type="submit" class="btn btn-primary" value="Email us">
                         </div>
                     </form>
                 </div>
                 <div class="col-md-4 contact">
-                    <div class="address">
-                        <h3>Our Address</h3>
-                        <p>
-                            225 Bush St, <br>
-                            5th Floor, <br>
-                            San Francisco, CA, 94105
-                        </p>
-                        <p>
-                            Phone: +1 (415) 503-8746
-                        </p>
-                    </div>
                     <div class="email">
-                        <h3>General Inquiries</h3>
+                        <h3>General</h3>
                         <p>
                             <a href="mailto:info@dataradiant.com">info@dataradiant.com</a>
                         </p>
                     </div>
                     <div class="press">
-                        <h3>Press Inquiries</h3>
+                        <h3>Press</h3>
                         <p>
                             <a href="mailto:press@dataradiant.com">press@dataradiant.com</a>
                         </p>
+                    </div>
+                    <div class="address">
+                        <h3>Offices</h3>
+                        <address>
+                          <strong>San Francisco</strong><br>
+                          225 Bush St.<br>
+                          CA, 94104<br>
+                        </address>
                     </div>
                 </div>
             </div>
