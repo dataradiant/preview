@@ -9,8 +9,8 @@ order: 1
 		<div class="container">
 			<div class="row header">
 				<div class="col-md-12">
-					<h1>Product Overview</h1>
-					<p>React is perfect for novice developers and experts alike.</p>
+					<h1>Product Overview (WIP)</h1>
+					<p>Apache Beam is the perfect tool for batch and stream processing applications.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -21,25 +21,25 @@ order: 1
 			<div class="row features">
 				<div class="col-md-4">
 					<div class="feature active">
-						<strong>Your own dashboard</strong>
+						<strong>Batch and Stream.</strong>
 						<p>
-							You can work with international customers right out of the box while staying in your country.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="feature active">
-						<strong>Showcase your landing page</strong>
+						<strong>Reliable Processing.</strong>
 						<p>
-							You can work with international customers right out of the box while staying in your country.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="feature active">
-						<strong>Offer pricing plans</strong>
+						<strong>APIs, Libraries, Ecosystem.</strong>
 						<p>
-							You can work with international customers right out of the box while staying in your country.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</p>
 					</div>
 				</div>
@@ -50,16 +50,20 @@ order: 1
 		<div class="container">
 			<div class="row header">
 				<div class="col-md-12">
-					<h2>[Details] Need an easy way to customize your site?</h2>
-					<p>React is perfect for novice developers and experts alike.</p>
+					<h2>Struggling to create and manage your data pipelines?</h2>
+					<p>Apache Beam is the perfect tool for batch and stream processing applications.</p>
 				</div>
 			</div>
 			<div class="row feature">
 				<div class="col-md-6 info">
-					<h4>RAD's Another Dashboard.</h4>
-					<p>
-						Whether you want to fill this paragraph with some text like I'm doing right now, this place is perfect to describe some features or anything you want - React has a complete solution for you.
-					</p>
+					<h4>Apache Beam.</h4>
+			          <p>
+			            Apache Beam is a unified programming model that you can use to create a data processing pipeline.
+			            You can use Beam for Extract, Transform, and Load (ETL) tasks and pure data integration.
+			          </p>
+			          <p>
+			            Beam pipelines are then executed by one of the supported runners, which include Apache Flink.
+			          </p>
 				</div>
 				<div class="col-md-6 image">
 					<img src="/images/architecture-rad.png" class="img-responsive" alt="architecture rad's another dashboard">
@@ -67,24 +71,16 @@ order: 1
 			</div>
 			<div class="row feature">
 				<div class="col-md-6 info">
-					<h4>Apache Beam.</h4>
-					<p>
-						You have complete control over the look &amp; feel of your website, we offer the best quality so you take your site up and running in no time.
-					</p>
+					<h4>Apache Flink.</h4>
+			          <p>
+			            Apache Flink is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams.
+			          </p>
+			          <p>
+			            Flink is streaming first, and batch is efficiently supported as a special case of stream.
+			          </p>
 				</div>
 				<div class="col-md-6 image">
 					<img src="/images/architecture-beam.png" class="img-responsive" alt="architecture apache beam">
-				</div>
-			</div>
-			<div class="row feature last">
-				<div class="col-md-6 info">
-					<h4>Apache Flink.</h4>
-					<p>
-						Whether you want to fill this paragraph with some text like I'm doing right now, this place is perfect to describe some features or anything you want - React has a complete solution for you.
-					</p>
-				</div>
-				<div class="col-md-6 image">
-					<img src="/images/architecture-flink.png" class="img-responsive" alt="architecture apache flink">
 				</div>
 			</div>
 		</div>
@@ -94,9 +90,9 @@ order: 1
 	<div id="grid-first">
 		<div class="container">
 			<div class="row header">
-				<h3>[Run] Never sold online before? It's fast and easy.</h3>
+				<h3>Run Apache Beam everywhere.</h3>
 				<p>
-					React is perfect for novice developers and experts alike.
+					In your AWS account, on prem, or even on your laptop.
 				</p>
 			</div>
 			<div class="row sections">
@@ -106,9 +102,9 @@ order: 1
 							<img src="/images/architecture-run-beam-on-docker.png" class="img-responsive" alt="architecture run beam on docker">
 						</div>
 						<div class="info">
-							<strong>Run on Docker</strong>
+							<strong>Run with Docker</strong>
 							<p>
-								You can work with international customers right out of the box while staying in your country.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							</p>
 							<a class="btn btn-primary" href="/docs/quick-start-with-docker/">Start with Docker</a>
 						</div>
@@ -120,9 +116,9 @@ order: 1
 							<img src="/images/architecture-run-beam-on-aws.png" class="img-responsive" alt="architecture run beam on aws">
 						</div>
 						<div class="info">
-							<strong>Run on AWS</strong>
+							<strong>Run with AWS</strong>
 							<p>
-								You can work with international customers right out of the box while staying in your country.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							</p>
 							<a class="btn btn-primary" href="/docs/quick-start-with-aws/">Start with AWS</a>
 						</div>
@@ -136,7 +132,7 @@ order: 1
 						<div class="info">
 							<strong>Managed AWS (soon)</strong>
 							<p>
-								You can work with international customers right out of the box while staying in your country.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							</p>
 							<p>
 						      Access to the beta will start soon. Interested?
