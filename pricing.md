@@ -10,8 +10,8 @@ order: 2
 	<div class="container">
 		<div class="row header">
 			<div class="col-md-12">
-				<h1>Pricing</h1>
-				<p>Choose the pricing that fits your business needs</p>
+				<h1>Pricing (WIP)</h1>
+				<p>Apache Beam is the perfect tool for batch and stream processing applications.</p>
 			</div>
 		</div>
 

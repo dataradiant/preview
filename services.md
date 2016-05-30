@@ -9,9 +9,9 @@ order: 3
 		<div class="container">
 			<div class="row header">
 				<div class="col-md-12">
-					<h1>Our Services</h1>
+					<h1>Our Services (WIP)</h1>
 					<p>
-						React is perfect for novice developers and experts alike.
+						Apache Beam is the perfect tool for batch and stream processing applications.
 					</p>
 				</div>
 			</div>
@@ -24,7 +24,7 @@ order: 3
 						<div class="info">
 							<strong>Operations Review</strong>
 							<p>
-								You can work with international customers right out of the box while staying in your country.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							</p>
 						</div>
 					</div>
@@ -37,7 +37,7 @@ order: 3
 						<div class="info">
 							<strong>Architecture Consulting</strong>
 							<p>
-								You can work with international customers right out of the box while staying in your country.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							</p>
 						</div>
 					</div>
@@ -50,7 +50,7 @@ order: 3
 						<div class="info">
 							<strong>Apache Beam Training</strong>
 							<p>
-								You can work with international customers right out of the box while staying in your country.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							</p>
 						</div>
 					</div>

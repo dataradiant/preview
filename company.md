@@ -10,7 +10,7 @@ order: 5
         <div class="container">
             <div class="row header">
                 <div class="col-md-12">
-                    <h1>About DataRadiant</h1>
+                    <h1>About DataRadiant (WIP)</h1>
                     <p>
                         You have to roll up your sleeves and be a stonecutter before you can become a sculptor – command of craft always precedes art.
                     </p>
