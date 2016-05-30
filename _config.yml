@@ -16,7 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://dataradiant.com" # the base hostname & protocol for your site
 twitter_username: dataradiant
 github_username:  dataradiant
-# google_analytics_id: UA-78105991-1
+google_analytics_id: UA-78105991-1
 
 collections:
   docs:
