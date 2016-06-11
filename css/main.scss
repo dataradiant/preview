@@ -2,16 +2,16 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 $border-radius-base: 0;
+$line-height-base: 20/14 + 0.001;
 
 @import "bootstrap";
 
-.icon {
-  width: 16px;
-  display: inline-block;
+.form-inline .input-group {
+  width: 100%;
+  max-width: 355px;
 }
-
-.form-inline input.email {
-  width: 250px;
+.form-inline .input-group .input-group-btn {
+  width: 1%;
 }
 
 footer {
