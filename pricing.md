@@ -122,18 +122,7 @@ order: 2
 				      Access to the beta will start soon. Interested?
 				    </p>
 
-				    <div id="mc_embed_signup">
-				      <form action="//dataradiant.us13.list-manage.com/subscribe/post?u=dcda854edc54c2c03d0818b34&amp;id=a29931c578" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate>
-				        <div id="mce-responses" class="clear">
-				          <div class="response" id="mce-error-response" style="display:none"></div>
-				          <div class="response" id="mce-success-response" style="display:none"></div>
-				        </div>
-				        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_dcda854edc54c2c03d0818b34_a29931c578" tabindex="-1" value=""></div>
-				        <div class="form-group mc-field-group"><input type="email" value="" name="EMAIL" class="form-control required email input-large" id="mce-EMAIL" placeholder="your@email.com">
-				        </div>
-				        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Get notified</button>
-				      </form>
-				    </div>
+				    {% include form-subscribe-inline.html %}
 
 				</div>
 			</div>
