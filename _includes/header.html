@@ -12,11 +12,21 @@
       <ul class="nav navbar-nav navbar-right">
         {% for item in site.data.nav %}
           {% assign item_url = item | prepend:"/" | append:"/" %}
-          {% assign item_home_url = item_url | append: 'home/' %}
+
+          {% if (page.url contains item_url) %}
+            {% assign link_class = 'active' %}
+          {% else %}
+            {% assign link_class = '' %}
+          {% endif %}
+
           {% assign p = site.pages | where:"url", item_url | first %}
           {% if p.title %}
-          <li class="{% if (page.url == item_url) or (page.url == item_home_url) %}active{% endif %}">
-            <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+          {% assign href = p.url | prepend: site.baseurl %}
+          {% if (item_url == '/docs/') %}
+            {% assign href = href | append: 'latest/' %}
+          {% endif %}
+          <li class="{{ link_class }}">
+            <a class="page-link" href="{{ href }}">{{ p.title }}</a>
           </li>
           {% endif %}
         {% endfor %}

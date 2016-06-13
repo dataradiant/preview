@@ -1,6 +1,8 @@
 ---
 layout: docs
-title: Quick Start with Docker
-short: Docker
-permalink: /docs/quick-start-with-docker/
+title: Docker
+permalink: /docs/latest/quick-start-with-docker/
 ---
+
+# Quick Start with Docker
+

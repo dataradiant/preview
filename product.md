@@ -66,7 +66,7 @@ order: 1
 			          </p>
 				</div>
 				<div class="col-md-6 image">
-					<img src="/images/architecture-rad.png" class="img-responsive" alt="architecture rad's another dashboard">
+					<img src="/images/architecture-beam.png" class="img-responsive" alt="architecture apache beam">
 				</div>
 			</div>
 			<div class="row feature">
@@ -80,7 +80,7 @@ order: 1
 			          </p>
 				</div>
 				<div class="col-md-6 image">
-					<img src="/images/architecture-beam.png" class="img-responsive" alt="architecture apache beam">
+					<img src="/images/architecture-flink.png" class="img-responsive" alt="architecture apache flink">
 				</div>
 			</div>
 		</div>
