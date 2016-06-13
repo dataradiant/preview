@@ -2,5 +2,5 @@
 layout: docs
 title: Docs
 permalink: /docs/
-redirect_to: /docs/home/
+redirect_to: /docs/latest/
 ---

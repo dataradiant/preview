@@ -1,6 +1,8 @@
 ---
 layout: docs
-title: Quick Start with AWS
-short: AWS
-permalink: /docs/quick-start-with-aws/
+title: AWS
+permalink: /docs/latest/quick-start-with-aws/
 ---
+
+# Quick Start with AWS
+

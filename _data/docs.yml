@@ -1,33 +1,33 @@
 - title: Introduction
   docs:
-  - home
-  - dataradiant-product-overview
-  - what-is-apache-beam
-  - what-is-apache-flink
-  - faq
+  - latest
+  - latest/dataradiant-product-overview
+  - latest/what-is-apache-beam
+  - latest/what-is-apache-flink
+  - latest/faq
 
 - title: Quick Start
   docs:
-  - quick-start-with-docker
-  - quick-start-with-aws
-  - quick-start-with-managed-aws
+  - latest/quick-start-with-docker
+  - latest/quick-start-with-aws
+  - latest/quick-start-with-managed-aws
 
 - title: Tutorials
   docs:
-  - beam-tutorial-word-count
-  - beam-tutorial-twitter
-  - beam-tutorial-kafka
+  - latest/beam-tutorial-word-count
+  - latest/beam-tutorial-twitter
+  - latest/beam-tutorial-kafka
 
 - title: Developing Pipelines
   docs:
-  - developer-setup-for-apache-beam
-  - starter-repo-for-apache-beam
-  - run-apache-beam-local
-  - test-debug-apache-beam
-  - use-intellij-idea-with-apache-beam
-  - use-eclipse-with-apache-beam
-  - run-apache-beam-flink
-  - run-apache-beam-google-dataflow
+  - latest/developer-setup-for-apache-beam
+  - latest/starter-repo-for-apache-beam
+  - latest/run-apache-beam-local
+  - latest/test-debug-apache-beam
+  - latest/use-intellij-idea-with-apache-beam
+  - latest/use-eclipse-with-apache-beam
+  - latest/run-apache-beam-flink
+  - latest/run-apache-beam-google-dataflow
 
 #Docker
 #

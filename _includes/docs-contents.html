@@ -1,21 +1,19 @@
-<div class="unit one-fifth hide-on-mobiles">
-  <aside>
+<nav class="docs-sidebar hidden-xs hidden-sm">
 
     {% for section in site.data.docs %}
-    <h4>{{ section.title }}</h4>
+    <h4 class="docs-sidebar-title">{{ section.title }}</h4>
 
-    <ul>
+    <ul class="nav nav-stacked">
     {% for item in section.docs %}
       {% assign item_url = item | prepend:"/docs/" | append:"/" %}
       {% assign p = site.docs | where:"url", item_url | first %}
       {% if p.title %}
-      <li class="{% if item_url == page.url %}current{% endif %}"><a href="{{ p.url }}">{{ p.short }}</a></li>
+      <li class="docs-sidebar-item{% if item_url == page.url %} active{% endif %}"><a class="docs-sidebar-link"href="{{ p.url }}">{{ p.title }}</a></li>
       {% endif %}
     {% endfor %}
     </ul>
     {% endfor %}
 
-    <h4>Beam Documentation</h4>
+    <h4 class="docs-sidebar-title">Beam Documentation</h4>
 
-  </aside>
-</div>
+</nav>

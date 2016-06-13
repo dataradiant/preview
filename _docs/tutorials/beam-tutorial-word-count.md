@@ -1,6 +1,7 @@
 ---
 layout: docs
-title: Beam Tutorial - Word Count
-short: Word Count
-permalink: /docs/beam-tutorial-word-count/
+title: Word Count
+permalink: /docs/latest/beam-tutorial-word-count/
 ---
+
+# Beam Tutorial - Word Count

@@ -4,6 +4,11 @@
 $border-radius-base: 0;
 $line-height-base: 20/14 + 0.001;
 
+$font-size-h1: 30px;
+$font-size-h2: 24px;
+$font-size-h3: 18px;
+$font-size-h4: 14px;
+
 @import "bootstrap";
 
 .form-inline .input-group {
@@ -16,4 +21,43 @@ $line-height-base: 20/14 + 0.001;
 
 footer {
   color: #ccc;
+}
+
+.img-maxed {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#docs h1,
+#docs h2,
+#docs h3 {
+  margin-bottom: 30px;
+}
+#docs h2,
+#docs h3 {
+  margin-top: 40px;
+}
+#docs h4 {
+  margin-top: 20px;
+}
+.docs-sidebar {
+  padding-top: 10px;
+}
+
+.docs-sidebar-title {
+  font-size: $font-size-base;
+  font-weight: bold;
+  color: $gray-dark;
+  padding: 5px 10px;
+}
+.nav > li > a.docs-sidebar-link {
+  color: $gray-light;
+  padding: 5px 10px;
+  border-left: 2px solid transparent;
+}
+.nav > li.active > a.docs-sidebar-link,
+.nav > li > a.docs-sidebar-link:hover {
+  background-color: transparent;
+  color: $gray-darker;
+  border-left-color: $gray-darker;
 }
